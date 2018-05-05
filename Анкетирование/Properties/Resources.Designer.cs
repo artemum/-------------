@@ -63,6 +63,16 @@ namespace Анкетирование.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap defazification {
+            get {
+                object obj = ResourceManager.GetObject("defazification", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap expert {
             get {
                 object obj = ResourceManager.GetObject("expert", resourceCulture);

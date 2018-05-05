@@ -110,9 +110,10 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Image = global::Анкетирование.Properties.Resources.defazification;
             this.pictureBox6.Location = new System.Drawing.Point(424, 259);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(145, 90);
+            this.pictureBox6.Size = new System.Drawing.Size(145, 101);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 11;
             this.pictureBox6.TabStop = false;

@@ -59,6 +59,8 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="my_global.cs" />
+    <Compile Include="port_db_helper.cs" />
+    <Compile Include="port_server.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Anketirovanie.resx">
@@ -104,6 +106,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\vivod.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defazification.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
