@@ -14,6 +14,7 @@ namespace Анкетирование
         [STAThread]
         static void Main()
         {
+            my_global.init();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());

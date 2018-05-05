@@ -16,5 +16,46 @@ namespace Анкетирование
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_anketirovanie(object sender, EventArgs e)
+        {
+            Form ptr = new Anketirovanie();
+            ptr.Show();
+        }
+
+        private void btn_expert(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_sociolog(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_konfig(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_vivod(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_defazification(object sender, EventArgs e)
+        {
+
+        }
     }
 }
